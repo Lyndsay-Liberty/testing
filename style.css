@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+ol,
+ul {
+    list-style: none;
+}
+
+header {
+    background: rgb(216, 151, 216);
+    text-align: center;
+        margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.nav-link:hover {
+    color: blue; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+.nav-link {
+  color: black; /* Default color */
+  text-decoration: none; /* Remove underline */
+}
+.navbar ul {
+    display: flex;
+  }
+ .navbar {
+    justify-content: space-between;
+  }
+  .navbar ul li {
+    list-style-type: none;
+  }
+  
+  .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  @media screen and (min-width: 390px) and (max-width: 767px) {
+    .container {
+      height: 100%;
+    }
+  
+  .navbar {
+      flex-direction: column;
+    }
+  }
+a {
+    color:black;
+}
+body{
+    justify-content: center;
+}
+.About-me{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-img { 
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border:solid 5px;
+  border-color:#5f047a;}
+
+<!-- Skills Section -->
+.Skills {
+  background:rgb(148, 234, 245);
+  text-align: center;
+  margin-bottom: 20px
+}
+.listskills{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+  font: 20px sans-serif;
+  height: auto;
+  width: auto;
+  Background:white
+}
+.listskills div{
+  height: 50%;
+  width: 300px;
+}
+.html {
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+}
+.css{
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+} 
+.flexbox{
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+} 
+.bootstrap{
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+} 
+.github{
+  outline-style: dotted;
+  outline-width: thin;
+  outline-color:rgb(148, 234, 245);
+}
+
+/* Projects Section Styling */
+#projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listprojects img{
+  width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    border-radius: 8px;
+}
+.listprojects {
+  margin: 1em; /* Space around each project */
+    padding: 1em; /* Padding for interior spacing */
+    border: 1px solid #ddd; /* Light border around each project */
+    border-radius: 8px; /* Rounded corners for project cards */
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(216, 151, 216)
+}
