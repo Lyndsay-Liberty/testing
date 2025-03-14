@@ -132,6 +132,12 @@ body{
     height: auto; 
     border-radius: 8px;
 }
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
 .listprojects {
   margin: 1em; /* Space around each project */
     padding: 1em; /* Padding for interior spacing */
