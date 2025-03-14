@@ -128,9 +128,9 @@ body{
 }
 .listprojects img{
   width: 100%; 
-     max-width: 150px; 
-     height: auto; 
-     border-radius: 8px;
+    max-width: 150px; 
+    height: auto; 
+    border-radius: 8px;
 }
 .listprojects {
   margin: 1em; /* Space around each project */
