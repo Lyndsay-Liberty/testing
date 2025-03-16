@@ -85,17 +85,16 @@ body{
   align-items:center;
   outline-style: dotted;
   outline-width: thin;
-  outline-color:rgb(148, 234, 245);
+  outline-color: black;
   font: 20px sans-serif;
   height: auto;
-  width: auto;
+  width: 300px;
   Background:white;
   }
 .listskills div{
   height: 50%;
   width: 300px;
-  padding: 20px;
-}
+  }
 .html {
   outline-style: dotted;
   outline-width: thin;
