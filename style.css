@@ -80,15 +80,15 @@ body{
 .listskills{
   display: flex;
   flex-wrap: nowrap;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   outline-style: dotted;
   outline-width: thin;
   outline-color: black;
   font: 20px sans-serif;
   height: auto;
-  width: 300px;
+  width: auto;
   Background:white;
   }
 .listskills div{
