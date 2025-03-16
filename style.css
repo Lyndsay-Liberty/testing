@@ -89,7 +89,8 @@ body{
   font: 20px sans-serif;
   height: auto;
   width: auto;
-  Background:white
+  Background:white;
+  padding: 20px;
 }
 .listskills div{
   height: 50%;
